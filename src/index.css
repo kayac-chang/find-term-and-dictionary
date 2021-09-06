@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+dialog {
+  margin: 0;
+}
+
+html,
+body {
+  @apply bg-background text-text;
+  font-family: "Space Mono", monospace;
+}
+
+input {
+  @apply w-full bg-transparent;
+}
+
+mark {
+  @apply bg-blue-dark text-white-light;
+}
